@@ -22,6 +22,8 @@ type CounterAction =
   | ReturnType<typeof decrease>
   | ReturnType<typeof increaseBy>;
 
+//type CounterAction = typeof increase | typeof decrease | typeof increaseBy
+
 export default function counter(
   state: CounterState = initialState,
   action: CounterAction
