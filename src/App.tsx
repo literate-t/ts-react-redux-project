@@ -1,3 +1,4 @@
+import CounterContainer from './containers/CounterContainer';
 import TodoApp from './containers/TodoApp';
 
 function App() {
