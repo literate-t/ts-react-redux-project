@@ -1,4 +1,4 @@
-import { Dispatch } from 'redux';
+import { Dispatch, Store } from 'redux';
 import { getUserProfile } from '../../api/github';
 import { getUserProfileAsync } from './actions';
 
