@@ -1,0 +1,21 @@
+.GithubProfileInfo {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.ProfileHead {
+  display: flex;
+  align-items: center;
+}
+
+.ProfileHead img {
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  margin-right: 16px;
+}
+
+.ProfileHead .name {
+  font-weight: bold;
+}
